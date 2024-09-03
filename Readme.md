@@ -1,7 +1,11 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Екатерина Краснова](https://up.htmlacademy.ru/javascript-individual/2/user/1982699).
-* Наставник: [Михаил Данюшин](<https://htmlacademy.ru/profile/id225742>).
+<<<<<<<HEAD*Наставник: [Михаил Данюшин](<https://htmlacademy.ru/profile/id225742>).
+=======
+* Наставник: `Михаил Данюшин`.
+
+>>>>>>> 2421109c2c0e31284f5bb4b3d601e98cf70fea8c
 
 ---
 
