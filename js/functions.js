@@ -25,21 +25,11 @@ const getNumber = (string) => {
       resultNumber += checkedSymbol;
     }
   }
-
-  return resultNumber === '' ? NaN : Number(resultNumber);
-};
-function getLength(string, maxLength) {
-  if (string.length <= maxLength) {
-    return true;
+  const checkstringmaxlenth ('Длина строки', 20); {
+    const newString = (string.replaceAll(' ', '')).toLowerCase();
+    let emptyString = '';
+    for (let i = newString.length - 1; i >= 0; i--) {
+      emptyString += newString.at(i);
+    }
+    return emptyString === newString;
   }
-  return false;
-}
-getLength('Длина строки', 20);
-function isPalindrome(string) {
-  const newString = (string.replaceAll(' ', '')).toLowerCase();
-  let emptyString = '';
-  for (let i = newString.length - 1; i >= 0; i--) {
-    emptyString += newString.at(i);
-  }
-  return emptyString === newString;
-}
