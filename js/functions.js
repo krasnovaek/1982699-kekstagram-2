@@ -25,14 +25,13 @@ const getNumber = (string) => {
     if (!Number.isNaN(checkedSymbol)) {
       resultNumber += checkedSymbol;
     }
-
   }
+
   getLength('Длина строки', 20); {
     const newString = (string.replaceAll(' ', '')).toLowerCase();
     let emptyString = '';
     for (let i = newString.length - 1; i >= 0; i--) {
       emptyString += newString.at(i);
     }
-
     return emptyString === newString;
   }
