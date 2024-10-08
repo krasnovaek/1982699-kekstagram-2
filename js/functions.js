@@ -27,9 +27,6 @@ const getNumber = (string) => {
   }
 
   const checkoutLengthStr = function (str, strLength) {
-    if (typeof str === 'string') {
-      return (str.length <= strLength);
-    }
     return 'not a string';
   };
 
