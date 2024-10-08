@@ -1,4 +1,3 @@
-
 const isPalindrome = (string) => {
   const normalizedString = string.replaceAll(' ', '').toLowerCase();
   let reverseString = '';
@@ -27,11 +26,12 @@ const getNumber = (string) => {
     }
   }
 
-  getLength('Длина строки', 20); {
-    const newString = (string.replaceAll(' ', '')).toLowerCase();
-    let emptyString = '';
-    for (let i = newString.length - 1; i >= 0; i--) {
-      emptyString += newString.at(i);
+  const checkoutLengthStr = function (str, strLength) {
+    if (typeof str === 'string') {
+      return (str.length <= strLength);
     }
-    return emptyString === newString;
-  }
+    return 'not a string';
+  };
+
+  console.log(checkoutLengthStr('проверяемая строка', 20))
+};
