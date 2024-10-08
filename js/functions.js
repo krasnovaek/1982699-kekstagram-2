@@ -27,7 +27,7 @@ const getNumber = (string) => {
   }
 
   const checkoutLengthStr = function (str, strLength) {
-    return 'not a string';
+    return (str.length <= strLength);
   };
 
   console.log(checkoutLengthStr('проверяемая строка', 20))
